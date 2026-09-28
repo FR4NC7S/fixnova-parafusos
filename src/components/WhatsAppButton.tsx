@@ -22,7 +22,7 @@ export function WhatsAppButton() {
       aria-label="Conversar com a Fixnova pelo WhatsApp"
     >
       <Icon name="whatsapp" size={30} />
-      <span className="whatsapp-fab__label">Fale conosco</span>
+      <span className="whatsapp-fab__label">Fale Conosco</span>
     </a>
   );
 }

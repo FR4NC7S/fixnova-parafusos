@@ -47,9 +47,14 @@ export function Hero() {
         </p>
 
         <div className="hero__actions hero-in" style={{ animationDelay: '0.5s' }}>
-          <a className="btn btn--primary btn--lg" href={whatsappLink()} target="_blank" rel="noopener noreferrer">
+          <a
+            className="btn btn--primary btn--lg"
+            href={whatsappLink('Olá! Vim pelo site e gostaria de solicitar um orçamento.')}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Icon name="whatsapp" size={20} />
-            Falar com a Fixnova
+            Solicitar orçamento
           </a>
           <a className="btn btn--ghost btn--lg" href="#produtos">
             Ver produtos

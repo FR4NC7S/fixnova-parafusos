@@ -58,7 +58,7 @@ export function Header() {
             rel="noopener noreferrer"
           >
             <Icon name="whatsapp" size={18} />
-            Falar com a Fixnova
+            Fale Conosco
           </a>
 
           <button
@@ -96,7 +96,7 @@ export function Header() {
           onClick={close}
         >
           <Icon name="whatsapp" size={20} />
-          Falar com a Fixnova
+          Fale Conosco
         </a>
       </div>
     </>

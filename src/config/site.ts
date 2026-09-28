@@ -56,6 +56,6 @@ export const nav = [
 ] as const;
 
 /** Monta o link do WhatsApp com mensagem pronta. */
-export function whatsappLink(message = 'Olá! Vim pelo site e gostaria de falar com a Fixnova.'): string {
+export function whatsappLink(message = 'Olá! Vim pelo site e gostaria de mais informações.'): string {
   return `https://wa.me/${site.whatsappNumber}?text=${encodeURIComponent(message)}`;
 }
