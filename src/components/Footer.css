@@ -1,0 +1,121 @@
+.footer {
+  position: relative;
+  border-top: 1px solid var(--line);
+  background: var(--black);
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: max(var(--gutter), calc((100% - var(--container)) / 2));
+  width: 80px;
+  height: 3px;
+  background: var(--orange);
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.3fr 1fr;
+  gap: 3rem;
+  padding-block: clamp(3.5rem, 7vw, 5rem);
+}
+
+.footer__brand img {
+  width: 210px;
+  height: auto;
+}
+
+.footer__brand p {
+  margin-top: 1.5rem;
+  max-width: 22rem;
+  color: var(--text-2);
+  line-height: 1.7;
+}
+
+.footer__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+  transition: color 0.2s ease;
+}
+
+.footer__social svg {
+  color: var(--orange);
+}
+
+.footer__social:hover {
+  color: var(--orange);
+}
+
+.footer__title {
+  margin-bottom: 1.25rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.footer__col ul {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.footer__col a,
+.footer__col span {
+  color: var(--text-2);
+  line-height: 1.6;
+  transition: color 0.2s ease;
+}
+
+.footer__col a:hover {
+  color: var(--orange);
+}
+
+.footer__contact li {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.footer__contact svg {
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+  color: var(--orange);
+}
+
+.footer__bottom {
+  border-top: 1px solid var(--line);
+}
+
+.footer__bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  flex-wrap: wrap;
+  padding-block: 1.5rem calc(1.5rem + env(safe-area-inset-bottom));
+  font-size: 0.85rem;
+  color: var(--text-3);
+}
+
+@media (max-width: 1000px) {
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .footer__bottom-inner {
+    padding-bottom: calc(5.5rem + env(safe-area-inset-bottom));
+  }
+}
