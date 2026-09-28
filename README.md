@@ -46,7 +46,7 @@ Recomendado: WebP, ~800×600 para os cards, 1440px de largura para o banner (`he
 
 ## Antes de publicar
 
-1. **WhatsApp:** confirme o número em `src/config/site.ts` (`whatsappNumber`). Hoje está com o telefone fixo `(37) 3225-0177`.
+1. **WhatsApp:** o número fica em `src/config/site.ts` (`whatsappNumber`), atualmente `(37) 99998-1006`.
 2. **Domínio:** o site usa `https://fixnovaparafusos.com.br` como domínio provisório. Troque pelo domínio definitivo em
    `index.html` (canonical, Open Graph, dados estruturados), `public/robots.txt` e `public/sitemap.xml`.
 

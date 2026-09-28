@@ -27,9 +27,8 @@ export const site = {
   /**
    * Número usado no botão flutuante e nos botões "Consultar".
    * Formato: DDI + DDD + número, só dígitos.
-   * ATENÇÃO: confirme se este é o número do WhatsApp da loja.
    */
-  whatsappNumber: '553732250177',
+  whatsappNumber: '5537999981006',
 
   hours: {
     days: 'Segunda a sexta',
