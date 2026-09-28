@@ -3,7 +3,7 @@ import { Hexagon } from './ui/Hexagon';
 import { Icon } from './ui/Icon';
 import './About.css';
 
-const highlights = ['Parafusos e fixadores', 'Ferragens para móveis', 'Ferramentas e acessórios'];
+const highlights = ['Ferramentas e acessórios', 'Ferragens para móveis', 'Parafusos e fixadores'];
 
 export function About() {
   return (
@@ -13,11 +13,11 @@ export function About() {
           <div className="about__frame">
             <img
               src="/images/sobre.webp"
-              alt="Prateleiras com conexões e ferragens organizadas em loja"
+              alt="Fachada da loja Fixnova Parafusos"
               loading="lazy"
               decoding="async"
               width={1000}
-              height={1150}
+              height={1120}
             />
           </div>
           <Hexagon className="about__hex" size={180} />
@@ -33,15 +33,15 @@ export function About() {
           <header className="section-heading" data-reveal>
             <span className="eyebrow">Sobre a Fixnova</span>
             <h2 id="sobre-title">
-              Especialista em <span className="text-orange">fixação</span> e ferragens
+              Especialista em ferramentas e <span className="text-orange">ferragens</span>
             </h2>
           </header>
 
           <div className="about__text" data-reveal data-reveal-delay="100">
             <p>
-              A <strong>Fixnova Parafusos</strong> é uma loja especializada em soluções para fixação e ferragens em
-              Nova Serrana – MG. Reunimos parafusos, porcas, arruelas, fixadores, ferragens para móveis e
-              ferramentas para atender profissionais, empresas e quem busca a peça certa para o seu projeto.
+              A <strong>Fixnova Parafusos</strong> é uma loja especializada em ferramentas e ferragens para móveis em
+              Nova Serrana – MG. Reunimos ferramentas, acessórios, ferragens, parafusos, porcas, arruelas e
+              fixadores para atender profissionais, empresas e quem busca o produto certo para o seu projeto.
             </p>
             <p>
               Nosso compromisso é oferecer um atendimento próximo e técnico, ajudando cada cliente a encontrar o

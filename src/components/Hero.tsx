@@ -9,8 +9,8 @@ export function Hero() {
     <section id="inicio" className="hero" aria-labelledby="hero-title">
       <div className="hero__media" aria-hidden="true">
         <img
-          src="/images/hero-1920.webp"
-          srcSet="/images/hero-1080.webp 1080w, /images/hero-1920.webp 1920w"
+          src="/images/hero-1440.webp"
+          srcSet="/images/hero-1080.webp 1080w, /images/hero-1440.webp 1440w"
           sizes="100vw"
           alt=""
           fetchPriority="high"
@@ -37,13 +37,14 @@ export function Hero() {
         </p>
 
         <h1 id="hero-title" className="hero__title hero-in" style={{ animationDelay: '0.2s' }}>
-          Fixação <span className="text-orange">certa</span>
+          A loja do <span className="text-orange">profissional</span>
           <br />
-          para cada projeto
+          serranense
         </h1>
 
         <p className="hero__text hero-in" style={{ animationDelay: '0.35s' }}>
-          Parafusos, ferragens e soluções para profissionais, empresas e projetos de todos os tamanhos
+          Ferramentas, ferragens para móveis, parafusos e fixadores para profissionais, empresas e projetos de
+          todos os tamanhos
         </p>
 
         <div className="hero__actions hero-in" style={{ animationDelay: '0.5s' }}>

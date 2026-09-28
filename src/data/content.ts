@@ -5,7 +5,7 @@ export const differentials: { icon: IconName; title: string; text: string }[] = 
   {
     icon: 'grid',
     title: 'Variedade de produtos',
-    text: 'Parafusos, fixadores, ferragens e ferramentas reunidos em um só lugar.',
+    text: 'Ferramentas, ferragens, parafusos e fixadores reunidos em um só lugar.',
   },
   {
     icon: 'chat',
@@ -37,10 +37,10 @@ export interface InstagramPost {
 }
 
 export const instagramPosts: InstagramPost[] = [
-  { image: '/images/parafusos.webp', alt: 'Parafusos' },
+  { image: '/images/instagram/loja-4.webp' },
+  { image: '/images/instagram/loja-1.webp' },
   {},
-  { image: '/images/ferragens.webp', alt: 'Ferragens para móveis' },
-  { image: '/images/porcas-arruelas.webp', alt: 'Porcas e parafusos' },
-  {},
-  { image: '/images/ferramentas.webp', alt: 'Ferramentas' },
+  { image: '/images/instagram/loja-2.webp' },
+  { image: '/images/instagram/loja-5.webp' },
+  { image: '/images/instagram/loja-3.webp' },
 ];

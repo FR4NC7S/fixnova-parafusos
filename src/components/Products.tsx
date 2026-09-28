@@ -22,12 +22,13 @@ export function Products() {
             eyebrow="Produtos"
             title={
               <>
-                Soluções completas em <span className="text-orange">fixação</span>
+                Tudo para o seu projeto <span className="text-orange">em um só lugar</span>
               </>
             }
           />
           <p className="products__intro" data-reveal data-reveal-delay="100">
-            Conheça as principais linhas da Fixnova. Consulte nossa equipe para modelos, medidas e disponibilidade.
+            Ferramentas, ferragens para móveis, parafusos e fixadores. Consulte nossa equipe para modelos, medidas e
+            disponibilidade.
           </p>
         </div>
 

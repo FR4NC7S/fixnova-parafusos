@@ -13,7 +13,7 @@ export function Footer() {
           <a href="#inicio" aria-label="Fixnova Parafusos – voltar ao início">
             <img src={logo} alt="Fixnova Parafusos" width={989} height={240} loading="lazy" />
           </a>
-          <p>Parafusos, fixadores, ferragens e ferramentas em Nova Serrana – MG.</p>
+          <p>Ferramentas, ferragens para móveis, parafusos e fixadores em Nova Serrana – MG.</p>
           <a className="footer__social" href={site.instagram.url} target="_blank" rel="noopener noreferrer">
             <Icon name="instagram" size={20} />
             {site.instagram.handle}

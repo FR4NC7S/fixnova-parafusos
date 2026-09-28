@@ -18,18 +18,25 @@ export interface ProductCategory {
 
 export const productCategories: ProductCategory[] = [
   {
+    id: 'ferramentas',
+    name: 'Ferramentas e Acessórios',
+    description: 'Ferramentas manuais e acessórios para montagem, instalação, marcenaria e manutenção.',
+    image: '/images/ferramentas.webp',
+    imageAlt: 'Parede de ferramentas na loja Fixnova',
+  },
+  {
+    id: 'ferragens',
+    name: 'Ferragens para Móveis',
+    description: 'Puxadores, suportes e ferragens que unem função, acabamento e durabilidade ao móvel.',
+    image: '/images/ferragens.webp',
+    imageAlt: 'Mostruário de ferragens na loja Fixnova',
+  },
+  {
     id: 'parafusos',
     name: 'Parafusos',
     description: 'Diversos tipos, cabeças e medidas para madeira, metal e montagem de móveis.',
     image: '/images/parafusos.webp',
-    imageAlt: 'Parafusos metálicos de rosca soberba em close',
-  },
-  {
-    id: 'porcas-arruelas',
-    name: 'Porcas e Arruelas',
-    description: 'Complementos essenciais para uma fixação firme, segura e bem acabada.',
-    image: '/images/porcas-arruelas.webp',
-    imageAlt: 'Porcas sextavadas e parafusos de aço',
+    imageAlt: 'Nichos de parafusos na loja Fixnova',
   },
   {
     id: 'fixadores',
@@ -39,18 +46,10 @@ export const productCategories: ProductCategory[] = [
     imageAlt: 'Variedade de fixadores e parafusos sobre superfície clara',
   },
   {
-    id: 'ferragens',
-    name: 'Ferragens',
-    description: 'Ferragens para móveis e acabamentos que unem função e durabilidade.',
-    image: '/images/ferragens.webp',
-    imageAlt: 'Puxadores metálicos pretos instalados em portas de móvel',
-    imagePosition: 'center 35%',
-  },
-  {
-    id: 'ferramentas',
-    name: 'Ferramentas e Acessórios',
-    description: 'Ferramentas e acessórios para montagem, instalação e manutenção.',
-    image: '/images/ferramentas.webp',
-    imageAlt: 'Alicates e ferramentas manuais organizados em suporte',
+    id: 'porcas-arruelas',
+    name: 'Porcas e Arruelas',
+    description: 'Complementos essenciais para uma montagem firme, segura e bem acabada.',
+    image: '/images/porcas-arruelas.webp',
+    imageAlt: 'Porcas sextavadas e parafusos de aço',
   },
 ];

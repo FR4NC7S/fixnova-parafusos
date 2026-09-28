@@ -39,9 +39,10 @@ informando `image` e `url` (link do post). Itens vazios (`{}`) aparecem com o í
 
 ### Imagens
 
-As fotos atuais são do Unsplash (uso livre, inclusive comercial) e estão otimizadas em WebP.
-Para trocar pelas fotos reais da loja, substitua os arquivos em `public/images/` mantendo os nomes, ou atualize os caminhos nos arquivos de dados.
-Recomendado: WebP, ~800×600 para os cards, 1920px de largura para o banner (`hero-1920.webp`) e 1080px para a versão mobile (`hero-1080.webp`).
+Banner, Sobre, Instagram e os cards de Ferramentas, Ferragens e Parafusos usam fotos reais da loja.
+Os cards de Fixadores e Porcas e Arruelas ainda usam fotos do Unsplash (uso livre, inclusive comercial).
+Para trocar qualquer foto, substitua o arquivo em `public/images/` mantendo o nome, ou atualize o caminho nos arquivos de dados.
+Recomendado: WebP, ~800×600 para os cards, 1440px de largura para o banner (`hero-1440.webp`) e 1080px para a versão mobile (`hero-1080.webp`).
 
 ## Antes de publicar
 
